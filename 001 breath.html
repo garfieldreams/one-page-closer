@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>breath</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #111;
+        }
+        @keyframes breathe{
+            0% { box-shadow: 0 0 0 0 rgba(0,255,255,0.7);}
+            50% { box-shadow: 0 0 20px 10px rgba(0, 255, 255, 0);}
+            100% { box-shadow: 0 0 0 0 rgba(0, 255, 255,0.7);}
+        }
+        .breath{
+            padding: 1rem 2.5rem;
+            font-size: 1.2rem;
+            color: #fff;
+            background: #222;
+            border: 2px solid #0ff;
+            border-radius: 10px;
+            cursor: pointer;
+            animation: breathe 2.5s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <button class="breath">Hello world!</button>
+</body>
+</html>
