@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f0f0f0;
+        }
+
+        .typing-container {
+            text-align: center;
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .typing-wrapper {
+            display: inline-block;
+            position: relative;
+            min-width: 1ch;
+        }
+
+        .typing-text {
+            font-size: 6rem;
+            font-family: 'Courier New', Courier, monospace;
+            color: rgb(35, 196, 142);
+            white-space: nowrap;
+            overflow: hidden;
+            margin: 0 auto;
+            display: inline-block;
+            width: 0ch;
+            animation: typing 2s steps(12, end) 2s forwards;
+            position: relative;
+        }
+
+        .typing-wrapper::after {
+            content: "|";
+            font-size: 4rem;
+            position: absolute;
+            right: -10px;
+            color: rgb(35, 196, 142);
+            animation: blink 0.7s infinite;
+            opacity: 1;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0ch;
+            }
+
+            to {
+                width: 12ch;
+            }
+        }
+
+        @keyframes blink {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .typing-text {
+                font-size: 3rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="typing-container">
+        <div class="typing-wrapper">
+            <p class="typing-text">Hello world!</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
