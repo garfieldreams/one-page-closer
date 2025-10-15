@@ -13,7 +13,7 @@ How many days can I actually keep writing?
 | 2025-10-11 | 002 | Typing | [Live](https://garfieldreams.github.io/one-page-closer/pages/002-Typing.html) |
 | 2025-10-13 | 003 | Clock | [Live](https://garfieldreams.github.io/one-page-closer/pages/003-Clock/003-Clock.html) |
 | 2025-10-14 | 004 | Toggle | [Live](https://garfieldreams.github.io/one-page-closer/pages/004-Toggle.html) |
-| 2025-10-15 | 005 | Toggle | [Live](https://garfieldreams.github.io/one-page-closer/pages/005-Circle.html) |
+| 2025-10-15 | 005 | Circle | [Live](https://garfieldreams.github.io/one-page-closer/pages/005-Circle/005-Circle.html) |
 
 ## 统计
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=garfieldreams&theme=dark&hide=prs,issues)
