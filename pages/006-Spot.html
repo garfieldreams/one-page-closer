@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跟随鼠标的光斑</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background-color: #1a1a1a; 
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* 光斑样式 */
+        .light-spot {
+            position: absolute;
+            border-radius: 50%;
+            pointer-events: none; /* 让鼠标能穿透光斑点击其他元素 */
+            background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
+            /* 初始大小 */
+            width: 150px;
+            height: 150px;
+            /* 初始位置（页面中心） */
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 光斑元素 -->
+    <div class="light-spot"></div>
+
+    <script>
+        // 获取光斑元素
+        const lightSpot = document.querySelector('.light-spot');
+
+        // 监听鼠标移动事件
+        document.addEventListener('mousemove', function(event){
+            const spotWidth = lightSpot.offsetWidth;
+            const spotHeight = lightSpot.offsetHeight;
+
+            lightSpot.style.left = (event.clientX - spotWidth/2) + 'px';
+            lightSpot.style.top = (event.clientY - spotHeight/2) + 'px';
+        })
+    </script>
+</body>
+</html>
