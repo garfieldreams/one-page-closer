@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+body {
+        min-height: 100vh;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        }
+.text-container {
+        position: relative;
+        font-size: 60px;
+        font-weight: bold;
+        }
+.char {
+        position: absolute;
+        color: #00ff9d;
+        font-family: Courier New;
+        transition: all 0.6s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+        }
