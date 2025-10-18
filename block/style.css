@@ -1,0 +1,19 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            overflow: hidden;
+        }
+
+        .color-block {
+            position: absolute;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.1s ease;
+        }
