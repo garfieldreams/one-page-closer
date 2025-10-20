@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .player {
+            width: 60px;
+            height: 60px;
+            background-color: #4a90e2;
+            border-radius: 9px;
+            position: absolute;
+            transition: transform 0.1s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="player"></div>
+
+    <script>
+        const player = document.querySelector('.player');
+
+        // 获取player尺寸
+        const playerWidth = player.offsetWidth;
+        const playerHeight = player.offsetHeight;
+
+        // 移动距离
+        const moveStep = 10;
+
+        // 设置player初始位置
+        const centerX = window.innerWidth / 2 - playerWidth / 2;
+        const centerY = window.innerHeight / 2 - playerHeight / 2;
+        player.style.left = `${centerX}px`;
+        player.style.top = `${centerY}px`;
+
+        // 监听键盘按下事件
+        document.addEventListener('keydown', function (event) {
+            const currentLeft = parseInt(player.style.left);
+            const currentTop = parseInt(player.style.top);
+            let newLeft = currentLeft;
+            let newTop = currentTop;
+
+            // 根据按下的方向键更新位置
+            if (event.key === 'ArrowLeft') {
+                newLeft = currentLeft - moveStep;
+            } else if (event.key === 'ArrowRight') {
+                newLeft = currentLeft + moveStep;
+            } else if (event.key === 'ArrowUp') {
+                newTop = currentTop - moveStep;
+            } else if (event.key === 'ArrowDown') {
+                newTop = currentTop + moveStep;
+            }
+
+            // 边界判断
+            // 左边界，不能小于0
+            if (newLeft < 0){
+                newLeft = 0;
+            }
+            // 右边界，不能超过窗口宽度 - 方块宽度
+            if (newLeft > window.innerWidth - playerWidth){
+                newLeft = window.innerWidth - playerWidth;
+            }
+            // 上边界，不能小于0
+            if (newTop < 0){
+                newTop = 0;
+            }
+            // 下边界，不能超过窗口高度 - 方块高度
+            if (newTop > window.innerHeight - playerHeight){
+                newTop = window.innerHeight - playerHeight
+            }
+
+            //更新最终位置
+            player.style.left = `${newLeft}px`;
+            player.style.top = `${newTop}px`;
+        })
+
+    </script>
+</body>
+
+</html>
