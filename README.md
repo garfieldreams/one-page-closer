@@ -1,8 +1,8 @@
 # One-Page-Closer 🚀  
 How many days can I actually keep writing?
 
-&gt; 当前进度：✅ **011**  
-&gt; 最新页面：[011 - Counter](https://garfieldreams.github.io/one-page-closer/pages/011-Counter/011-Counter.html)
+&gt; 当前进度：✅ **012**  
+&gt; 最新页面：[012 - Textcolor](https://garfieldreams.github.io/one-page-closer/pages/012-Textcolor/012-Text-color.html)
 
 ---
 
@@ -20,6 +20,7 @@ How many days can I actually keep writing?
 | 2025-10-19 | 009 | Random-color | [Live](https://garfieldreams.github.io/one-page-closer/pages/009-Random-color/009-Random-color.html) |
 | 2025-10-20 | 010 | Keyboard-move | [Live](https://garfieldreams.github.io/one-page-closer/pages/010-Keyboard-move/010-Keyboard-move.html) |
 | 2025-10-21 | 011 | Counter | [Live](https://garfieldreams.github.io/one-page-closer/pages/011-Counter/011-Counter.html) |
+| 2025-10-22 | 012 | Textcolor | [Live](https://garfieldreams.github.io/one-page-closer/pages/012-Textcolor/012-Text-color.html) |
 
 ## 统计
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=garfieldreams&theme=dark&hide=prs,issues)
