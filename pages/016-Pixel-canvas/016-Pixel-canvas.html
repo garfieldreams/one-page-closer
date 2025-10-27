@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>像素画板 🎨</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>像素画板 🎨</h1>
+
+    <div class="main-container">
+        <!-- 颜色选择器（JS动态生成颜色选项） -->
+        <div class="color-picker">
+            <h3>选择颜色</h3>
+            <div class="color-options" id="colorOptions"></div>
+            <button class="clear-btn" id="clearBtn">清空画布</button>
+        </div>
+
+        <!-- 像素画布（JS动态生成方格） -->
+        <div class="pixel-canvas" id="pixelCanvas"></div>
+    </div>
+
+    <div class="tip">提示：点击或按住鼠标拖动绘图</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
