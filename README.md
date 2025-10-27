@@ -1,8 +1,8 @@
 # One-Page-Closer 🚀  
 How many days can I actually keep writing?
 
-&gt; 当前进度：✅ **014**  
-&gt; 最新页面：[014 - Star-blink](https://garfieldreams.github.io/one-page-closer/pages/014-Star-blink/014-Star-blink.html)
+&gt; 当前进度：✅ **015**  
+&gt; 最新页面：[015 - Piano](https://garfieldreams.github.io/one-page-closer/pages/015-Piano/015-Piano.html)
 
 ---
 
@@ -23,7 +23,7 @@ How many days can I actually keep writing?
 | 2025-10-22 | 012 | Textcolor | [Live](https://garfieldreams.github.io/one-page-closer/pages/012-Textcolor/012-Text-color.html) |
 | 2025-10-23 | 013 | Color-block | [Live](https://garfieldreams.github.io/one-page-closer/pages/013-Color-block/013-Color-Block.html) |
 | 2025-10-24 | 014 | Star-blink | [Live](https://garfieldreams.github.io/one-page-closer/pages/014-Star-blink/014-Star-blink.html) |
-014-Star-blink
+| 2025-10-25 | 015 | Piano | [Live](https://garfieldreams.github.io/one-page-closer/pages/015-Piano/015-Piano.html) |
 
 
 ## 统计
