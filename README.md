@@ -1,8 +1,8 @@
 # One-Page-Closer 🚀  
 How many days can I actually keep writing?
 
-&gt; 当前进度：✅ **015**  
-&gt; 最新页面：[015 - Piano](https://garfieldreams.github.io/one-page-closer/pages/015-Piano/015-Piano.html)
+&gt; 当前进度：✅ **016**  
+&gt; 最新页面：[016 - Pixel Canvas](https://garfieldreams.github.io/one-page-closer/pages/016-Pixel-canvas/016-Pixel-canvas.html)
 
 ---
 
@@ -24,6 +24,7 @@ How many days can I actually keep writing?
 | 2025-10-23 | 013 | Color-block | [Live](https://garfieldreams.github.io/one-page-closer/pages/013-Color-block/013-Color-Block.html) |
 | 2025-10-24 | 014 | Star-blink | [Live](https://garfieldreams.github.io/one-page-closer/pages/014-Star-blink/014-Star-blink.html) |
 | 2025-10-25 | 015 | Piano | [Live](https://garfieldreams.github.io/one-page-closer/pages/015-Piano/015-Piano.html) |
+| 2025-10-27 | 016 | Pixel Canvas | [Live](https://garfieldreams.github.io/one-page-closer/pages/016-Pixel-canvas/016-Pixel-canvas.html) |
 
 
 ## 统计
