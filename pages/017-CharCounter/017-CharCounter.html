@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CharCounter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>英文单词计数器</h1>
+    <div class="container">
+        <!-- 输入区域 -->
+        <textarea 
+            id="textInput" 
+            placeholder="请输入英文文本...（例如：Hello world! This is a test.）"
+        ></textarea>
+
+        <!-- 统计结果区域 -->
+        <div class="stats">
+            <div class="stat-item">总字符数（含空格）：<strong id="charCountWithSpace">0</strong></div>
+            <div class="stat-item">总字符数（不含空格）：<strong id="charCountWithoutSpace">0</strong></div>
+            <div class="stat-item">单词总数：<strong id="wordCount">0</strong></div>
+            <div class="stat-item">句子总数：<strong id="sentenceCount">0</strong></div>
+            <div class="stat-item">最长单词：<strong id="longestWord">-</strong>（长度：<strong id="longestWordLength">0</strong>）</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
