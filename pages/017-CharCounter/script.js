@@ -32,7 +32,7 @@ function calculateStats(text) {
 
     candidateWords.forEach(word => {
         // 去除单词中的标点（如 "world!" → "world"）
-        const cleanWord = word.replace(/[^\w]/g, '').toLowerCase();
+        const cleanWord = word.replace(/[^\p{L}]/gu, '').toLowerCase();
         if (cleanWord && cleanWord.length > longest.length) {
             longest = cleanWord;
         }
