@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>专业音阶生成器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>自然大调音阶生成器</h1>
+            <p class="description">基于半音索引表和音程偏移表，精准生成12个大调的音阶信息</p>
+        </header>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="key">选择调号</label>
+                <select id="key">
+                    <option value="C">C大调（无升降号）</option>
+                    <option value="G">G大调（1个升号）</option>
+                    <option value="D">D大调（2个升号）</option>
+                    <option value="A">A大调（3个升号）</option>
+                    <option value="E">E大调（4个升号）</option>
+                    <option value="B">B大调（5个升号）</option>
+                    <option value="F#">F#大调（6个升号）</option>
+                    <option value="F">F大调（1个降号）</option>
+                    <option value="Bb">Bb大调（2个降号）</option>
+                    <option value="Eb">Eb大调（3个降号）</option>
+                    <option value="Ab">Ab大调（4个降号）</option>
+                    <option value="Db">Db大调（5个降号）</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="octave">选择八度</label>
+                <select id="octave">
+                    <option value="3">3（低音区）</option>
+                    <option value="4" selected>4（中音区，中央C）</option>
+                    <option value="5">5（高音区）</option>
+                    <option value="6">6（超高音区）</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label style="visibility: hidden;">生成</label>
+                <button id="generate-btn">生成音阶</button>
+            </div>
+        </div>
+
+        <div class="scale-display">
+            <div class="base-info" id="base-info">
+                调号基准：C大调（简谱1=C4，MIDI编号60）
+            </div>
+
+            <div class="scale-grid" id="scale-grid">
+                <!-- 音阶音符将动态生成 -->
+            </div>
+        </div>
+
+        <footer>
+            核心逻辑：音名-半音索引表 + 自然大调音程偏移表 | 动态计算生成所有音阶信息
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

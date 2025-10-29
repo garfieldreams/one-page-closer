@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #666;
+    font-size: 15px;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+    align-items: flex-end;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 0 0 auto;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+    font-weight: 500;
+}
+
+select, button {
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    height: 42px;
+    box-sizing: border-box;
+}
+
+select {
+    min-width: 180px;
+    background-color: white;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    min-width: 120px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.scale-display {
+    margin-top: 20px;
+}
+
+.base-info {
+    background-color: #f0f7ff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #2c3e50;
+}
+
+.scale-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+.scale-note {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 18px 10px;
+    text-align: center;
+    border: 1px solid #eee;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.scale-note:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.note-jianpu {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.note-pitch {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 8px 0;
+}
+
+.note-semi {
+    font-size: 13px;
+    color: #999;
+}
+
+.note-midi {
+    font-size: 14px;
+    color: #3498db;
+    margin-top: 5px;
+    padding-top: 8px;
+    border-top: 1px dashed #eee;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #999;
+    font-size: 13px;
+}
