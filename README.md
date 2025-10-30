@@ -1,8 +1,8 @@
 # One-Page-Closer 🚀  
 How many days can I actually keep writing?
 
-&gt; 当前进度：✅ **018**  
-&gt; 最新页面：[018 - Scale](https://garfieldreams.github.io/one-page-closer/pages/018-Scale/018-Scale.html)
+&gt; 当前进度：✅ **019**  
+&gt; 最新页面：[019 - Email regex](https://garfieldreams.github.io/one-page-closer/pages/019-Email-regex/019-Email-regex.html)
 
 ---
 
@@ -27,6 +27,7 @@ How many days can I actually keep writing?
 | 2025-10-27 | 016 | Pixel Canvas | [Live](https://garfieldreams.github.io/one-page-closer/pages/016-Pixel-canvas/016-Pixel-canvas.html)
 | 2025-10-28 | 017 | CharCounter | [Live](https://garfieldreams.github.io/one-page-closer/pages/017-CharCounter/017-CharCounter.html) |
 | 2025-10-29 | 018 | Scale | [Live](https://garfieldreams.github.io/one-page-closer/pages/018-Scale/018-Scale.html) |
+| 2025-10-30 | 019 | Email regex | [Live](https://garfieldreams.github.io/one-page-closer/pages/019-Email-regex/019-Email-regex.html) |
 
 ## 统计
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=garfieldreams&theme=dark&hide=prs,issues)
