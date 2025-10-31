@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>abc tune</title>
+    <!-- ① 引入 abcjs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/abcjs/6.5.2/abcjs-basic-min.min.js"></script>
+    <style>
+        body {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .tune-container {
+            border: 1px solid #eee;
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tune-container" id="tuneOutput"></div>
+    <script>
+        const abcTune = "X:1\nT:小星星\nM:4/4\nL:1/8\nK:C\n" +
+"C C G G | A A G2 | F F E E | D D C2 |\n" +
+"G G F F | E E D2 | G G F F | E E D2 |\n" +
+"C C G G | A A G2 | F F E E | D D C2 |";
+
+        // 渲染abc tune到页面
+        // 参数1 - ABC格式的文本
+        // 参数2 - 渲染目标容器的ID
+        // 参数3 - 配置项（空对象表示使用默认配置）
+        ABCJS.renderAbc('tuneOutput', abcTune, {});
+    </script>
+</body>
+
+</html>
